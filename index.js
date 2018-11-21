@@ -11,7 +11,7 @@ lottie.loadAnimation({
 });
 
 
-var myVar = setTimeout(myTimer, 3000);
+setTimeout(myTimer, 3000);
 
 function myTimer() {
     lottie.goToAndStop(25, true);
