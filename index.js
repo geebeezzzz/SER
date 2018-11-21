@@ -4,4 +4,10 @@ lottie.loadAnimation({
   loop: true,
   autoplay: true,
   path: 'scripts/data.json' // the path to the animation json
+
+/////////////////////////////////
+	goToAndStop(25, isFrame),
 });
+
+
+// 
