@@ -10,10 +10,10 @@ lottie.loadAnimation({
 });
 
 
-var myVar = setInterval(myTimer, 3000);
+var myVar = setTimeout(myTimer, 3000);
 
 function myTimer() {
-    lottie.stop();
+    lottie.goToAndStop(25, isFrame);
     console.log("delay");
 }
 
