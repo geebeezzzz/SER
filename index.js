@@ -8,8 +8,6 @@ lottie.loadAnimation({
 
 /////////////////////////////////
 
-});
-
 
 setTimeout(myTimer, 3000);
 
@@ -17,6 +15,11 @@ function myTimer() {
     lottie.goToAndStop(25, true);
     console.log("delay");
 }
+
+});
+
+
+
 
 
 
