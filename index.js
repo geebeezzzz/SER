@@ -10,11 +10,11 @@ lottie.loadAnimation({
 });
 
 
-var myVar = setInterval(myTimer, 1000);
+var myVar = setInterval(myTimer, 3000);
 
 function myTimer() {
     lottie.stop();
-    print("delay");
+    console.log("delay");
 }
 
 
