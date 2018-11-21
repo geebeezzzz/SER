@@ -6,8 +6,17 @@ lottie.loadAnimation({
   path: 'scripts/data.json' // the path to the animation json
 
 /////////////////////////////////
-	goToAndStop(25, isFrame),
+
 });
+
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    lottie.stop();
+}
+
+
 
 
 // 
