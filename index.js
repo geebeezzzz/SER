@@ -10,7 +10,14 @@ lottie.loadAnimation({
 
 
 
-setTimeout(myTimer(), 3000);
+function setTimeout(myTimer, 3000);
+
+
+
+
+function myFunction() {
+    setTimeout(function(){ alert("Hello"); }, 3000);
+}
 
 
 function myTimer() {
