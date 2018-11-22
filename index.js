@@ -10,20 +10,17 @@ lottie.loadAnimation({
 
 
 
-function setTimeout(myTimer, 3000);
+function setTimeout(alert("Hello"), 3000);
 
 
-
-
-function myFunction() {
-    setTimeout(function(){ alert("Hello"); }, 3000);
-}
-
+/*
 
 function myTimer() {
     lottie.goToAndStop(25, true);
     console.log("delay");
 }
+
+*/
 
 });
 
